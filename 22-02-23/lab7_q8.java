@@ -12,7 +12,7 @@ class lab7_q8 extends cons {
     }
 
     public static void main(String[] args) {
-        lab7_q8 obj = new lab7_q8(10);
+        //lab7_q8 obj = new lab7_q8(10);
 
     }
 }

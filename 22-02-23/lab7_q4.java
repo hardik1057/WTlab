@@ -31,6 +31,6 @@ class WoodBox extends Box {
 
 public class lab7_q4 {
     public static void main(String[] args) {
-        WoodBox woodBox = new WoodBox(10, 20, 30, 5);
+      //  WoodBox woodBox = new WoodBox(10, 20, 30, 5);
     }
 }
