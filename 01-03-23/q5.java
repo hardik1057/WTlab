@@ -2,7 +2,6 @@
 
 abstract class Bank {
     double ROI;
-
     abstract public void find_ROI();
 }
 

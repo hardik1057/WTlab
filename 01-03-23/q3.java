@@ -1,20 +1,17 @@
 abstract class Shape {
     abstract public double calculateArea();
 }
-
 class Circle extends Shape {
     double r;
 
     Circle(double radius) {
         r = radius;
     }
-
     public double calculateArea() {
         double area = ((22 / 7) * r * r);
         return area;
     }
 }
-
 class Triangle extends Shape {
     double b, h;
 
@@ -28,20 +25,17 @@ class Triangle extends Shape {
         return area;
     }
 }
-
 class Square extends Shape {
     double l;
 
     Square(double length) {
         l = length;
     }
-
     public double calculateArea() {
         double area = (l * l);
         return area;
     }
 }
-
 public class q3 {
     public static void main(String[] args) {
         Shape obj;
