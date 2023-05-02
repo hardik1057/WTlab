@@ -3,7 +3,6 @@ class CheckArgument extends Exception {
     public String toString() {
         return "no. of arguments less than 4";
     }
-
 }
 public class q7 {
     public static void main(String[] args) {
